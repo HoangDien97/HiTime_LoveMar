@@ -1,0 +1,121 @@
+@media (min-width: 414px) {
+    /* Header----------------- */
+    #rps-menu {
+        float: right;
+        margin-top: -58px;
+        margin-right: -160px;
+    }
+    form#search {
+        position: relative;
+        height: 34px;
+        margin-top: 19px;
+        z-index: 1;
+        margin-left: 4px;
+    }
+    form#search input {
+        width: 357px;
+        height: 40px;
+        border: none;
+        outline: none;
+        padding: 9px 42px 9px 15px;
+        color: rgb(58, 47, 47);
+        background: #fff;
+        margin: 4px 0 0 6px;
+        border-radius: 50rem;
+        border: 1px solid #ff6564;
+    }
+    form#search button {
+        top: 4px;
+        left: 320px;
+        position: absolute;
+        background: none;
+        border: none;
+        padding: 9px 12px;
+        font-size: 18px;
+        outline: none;
+    }
+    /* Footer------------- */
+    #footer .wp_about_us_f {
+        margin-bottom: 40px;
+    }
+    #footer .wp_information_f {
+        margin-bottom: 40px;
+    }
+    #footer .wp_support_f {
+        margin-bottom: 40px;
+    }
+    /* PRODUCT-DETAIL------------------- */
+    /* BREADCRUMB------- */
+    /* wp-content  ------------------- */
+    #detail_product img.img_item_1 {
+        width: 370px;
+        height: 370px;
+        z-index: 2;
+    }
+    #detail_product img.img_item_2 {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        top: -169px;
+        right: 46px;
+        z-index: -1;
+    }
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+    /* Header-------------------- */
+    form#search {
+        position: relative;
+        height: 34px;
+        margin-top: 18px;
+        z-index: 1;
+        margin-left: 41px;
+    }
+    form#search input {
+        width: 400px;
+        height: 40px;
+        border: none;
+        outline: none;
+        padding: 9px 42px 9px 15px;
+        color: rgb(58, 47, 47);
+        background: #eee;
+        margin: 6px 0 0 10px;
+        border-radius: 50rem;
+        /* border: 1px solid #000; */
+    }
+    form#search button {
+        position: absolute;
+        top: 4px;
+        left: 367px;
+        /* color: #cdc7c7; */
+        background: none;
+        /* border: 1px solid red; */
+        border: none;
+        padding: 9px 12px;
+        font-size: 18px;
+        outline: none;
+    }
+    /* wp-content  ------------------- */
+    #detail_product img.img_item_1 {
+        width: 450px;
+        height: 450px;
+        z-index: 2;
+    }
+    #detail_product img.img_item_2 {
+        width: 355px;
+        height: 355px;
+        position: absolute;
+        top: -169px;
+        right: 46px;
+        z-index: -1;
+    }
+}
